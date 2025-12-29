@@ -20,7 +20,7 @@ spec:
           volumeMounts:
             - name: storage-volume
               mountPath: /etc/linkding/data
-       volumes:
-         - name: storage-volume
-          persistentVolumeClaim:          
+      volumes:
+        - name: storage-volume
+          persistentVolumeClaim:
             claimName: linkding-data-pvc
