@@ -1,0 +1,23 @@
+apiVersion: v1
+data:
+    password: ENC[AES256_GCM,data:oGkmSEUjxYhtTYNoyz2h9g==,iv:EG9y56g3DdglON+ysiBdEROnfaGgJz2WAn0oJsgQ6/A=,tag:E5v3gVGT/S8B96q4cvqIqQ==,type:str]
+    user: ENC[AES256_GCM,data:1vRTkRhiG9A=,iv:/IBWY7XhOVdATD6xmAPCZXw15L8U+j2rbsfFFo4CO2M=,tag:5iZkFcqt85pc+xHikwFdnQ==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: linkding-su-creds
+sops:
+    age:
+        - recipient: age1vr0nnzmg4fjav440a3c3q5c28w88n3htcypukr3nnyckxsphcu9q3tcelz
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSArV2k1dURMTTZBbG1Kajhm
+            UGtLTjdDU1hGNDFpZ3N6UmVUdEp5RzQ0VVh3CmpuVWR3ZmNrb0RLcEVqWXFnWW56
+            VXRNeVpSdFRXa1ZJdHl0RWVwcGY4WDQKLS0tIG9rQVI5MnVBN2VDQ0srOFRWdlZI
+            Z0dYNVhzSG9nWXhQdE5veEN4Rk85OEEKZa27sIhSdDAkenrT0ukI/We8BbOOiOQt
+            dmymprrvgf0GgW0+XJSpKW+N0Dg7DXnHEmVtEPnke9afU3nKbDqPAA==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2025-12-30T22:28:43Z"
+    mac: ENC[AES256_GCM,data:9qlHaIDzMbAHWdp3inb2tq4wivRFNJud+4Z20sxSoLmFHI4vv4YG2Vpj5zIToeK9SKZJ0gSftBgM/kOn2YPeOcLDw6VFus7ZXZU/ojGOmmnhB3ED95fmW4y92DyUARLcZVf/Izn3pmYMI3mcipFrD5LqmikGARD1s3v99BGuHoE=,iv:Fxu41pQ4qH5Ic/XwaF15e2bR30aMwhDzhXetY4kp/6E=,tag:kgXoBz5YuI5GgpuI1x+Nqg==,type:str]
+    encrypted_regex: ^(data|stringData)$
+    version: 3.11.0
