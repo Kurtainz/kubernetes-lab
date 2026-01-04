@@ -29,3 +29,8 @@ spec:
   values:
     grafana:
       adminPassword: funkelfunkel
+    prometheus:
+      ingress:
+        enabled: true
+        hosts:
+          - prometheus.local
