@@ -34,4 +34,6 @@ spec:
         enabled: true
         hosts:
           - prometheus.local
-        pathType: ImplementationSpecific
+        pathType: Prefix
+        paths:
+          - /
