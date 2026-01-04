@@ -38,3 +38,7 @@ spec:
         paths:
           - /
         servicePort: 9090
+        tls:
+          - secretName: prometheus-tls-secret
+            hosts:
+              - prometheus.local
