@@ -37,3 +37,4 @@ spec:
         pathType: Prefix
         paths:
           - /
+        servicePort: 9090
