@@ -39,8 +39,12 @@ spec:
             - name: app-volume
               mountPath: /metadata
               subPath: metadata
-
       volumes:
         - name: app-volume
           persistentVolumeClaim:
             claimName: audiobookshelf-pvc
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 1000
